@@ -33,7 +33,7 @@ void main(){
                 }
                 else if(front==rear){
                     printf("Element %d removed\n",ar[front]);
-                    front=rear=1;
+                    front=rear=-1;
                 }
                 else{
                     printf("element %d removed\n",ar[front]);
