@@ -39,8 +39,8 @@ void main(){
                 scanf("%d",&num);
                 temp->data=num;
                 if (first==NULL){
-                    first=temp;
                     temp->link=NULL;
+                    first=temp;
                 }
                 else{
                     cur=first;

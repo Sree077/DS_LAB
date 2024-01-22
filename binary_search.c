@@ -21,7 +21,7 @@ void main(){
         }
         else if(ar[mid]<num){
             first=mid+1;
-        }
+        } 
         else if(ar[mid]>num){
             last=mid-1;
         }
