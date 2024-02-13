@@ -34,9 +34,11 @@ void main(){
             if(top==-1){
                 printf("Stack is empty!!!.\n");
             }
-            printf("Elements in stack are: ");
-            for(i=top;i>=0;i--){
+            else {
+                printf("Elements in stack are: ");
+                for(i=top;i>=0;i--){
                 printf("%d\n",ar[i]);
+                }
             }
             break;
         default:
